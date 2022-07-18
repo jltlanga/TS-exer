@@ -1,9 +1,17 @@
 /*
-● Exercício 2:
-Faça um algoritmo que leia as 3 notas de um aluno e calcule a média final deste aluno.
-Considerar que a média é
-ponderada e que o peso das notas é: 2,3 e 5.
+● Exercício 3:
+Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e
+mostre-a expressa apenas em dias.
 
 */
 'use strict';
-let n0 = 1
+let anos = 10;
+let mes = 9;
+let dias = 20;
+
+function convertIdade(anos: number, mes: number, idade: number){
+    return (anos*365 + mes*30 + dias);
+
+}
+let idadeEmDias = convertIdade(anos, mes, dias);
+document.write(`A pessoa tem ${idadeEmDias} dias de idade`);

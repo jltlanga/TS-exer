@@ -2,7 +2,7 @@
 de 28% e os impostos de 45%, escrever um algoritmo que leia o custo de fábrica de um carro e escreva o custo ao consumidor. */
 "use strict";
 
-let custoDaFabrica = 5000;
+let custoDaFabrica = 45000;
 const custoDistribuidor = 0.28;
 const imposto = 0.45;
 
@@ -12,4 +12,4 @@ function baseDeCalculo (custoDaFabrica: number, custoDistribuidor: number, impos
     return soma;
 }
 let CustoConsumidor = baseDeCalculo(custoDaFabrica,custoDistribuidor,imposto);
-document.write(`Custo do consumidor: ${CustoConsumidor}<br/>`);
+document.write(`Custo do consumidor: R$:${CustoConsumidor}<br/>`);

@@ -5,7 +5,7 @@ Considerar que a média é
 ponderada e que o peso das notas é: 2,3 e 5.
 */
 "use strict";
-let n1 = 10;
+let n1 = 2;
 let n2 = 10;
 let n3 = 10;
 let peso1 = 2;
