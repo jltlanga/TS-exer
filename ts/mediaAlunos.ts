@@ -11,7 +11,7 @@ let n3 = 10;
 let peso1 = 2;
 let peso2 = 3;
 let peso3 = 5;
-function mediaAluno(n1: number, n2: number, n3: number, peso1: number, peso2: number, peso3){
+function mediaAluno(n1: number, n2: number, n3: number, peso1: number, peso2: number, peso3: number){
     return ((n1 * peso1) + (n2 * peso2) + (n3 * peso3))/(peso1 + peso2 + peso3);
 }
 

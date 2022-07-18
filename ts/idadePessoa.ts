@@ -6,4 +6,4 @@ ponderada e que o peso das notas é: 2,3 e 5.
 
 */
 'use strict';
-let n1 = 1
+let n0 = 1
